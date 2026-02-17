@@ -4,30 +4,11 @@ API REST développée avec **Hapi.js** permettant la gestion d'utilisateurs, de 
 
 ---
 
-## Table des matières
-
-- [Prérequis](#prérequis)
-- [Installation](#installation)
-- [Variables d'environnement](#variables-denvironnement)
-- [Lancement avec Docker](#lancement-avec-docker)
-- [Démarrage du serveur](#démarrage-du-serveur)
-- [Migrations](#migrations)
-- [Authentification](#authentification)
-- [Endpoints de l'API](#endpoints-de-lapi)
-  - [Utilisateurs](#utilisateurs)
-  - [Films](#films)
-  - [Favoris](#favoris)
-  - [Export CSV (Message Broker)](#export-csv-message-broker)
-- [Architecture du projet](#architecture-du-projet)
-- [Tests](#tests)
-
----
-
 ## Prérequis
 
 - **Node.js** (v14+)
 - **npm**
-- **Docker** et **Docker Compose** (pour MySQL et RabbitMQ)
+- **Docker** (pour MySQL et RabbitMQ)
 
 ---
 
